@@ -1,0 +1,11 @@
+<svg  xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Our symbol in its own coordinate system -->
+  <symbol id="myDot" width="5" height="5" viewBox="0 0 2 2">
+    <circle fill="red" cx="1" cy="1" r="1" />
+  </symbol>
+ 
+  <!-- All instances of our symbol -->
+  <use xlink:href="#myDot" x="5"  y="5" style="opacity:1.0" />
+  </svg>
+  

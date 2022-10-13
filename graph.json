@@ -1,0 +1,85 @@
+{  
+    "Testing": false,
+    "TestingBackgroundColor": "#33ccff",
+    "TestingStrokeColor": "#ffffff",
+    "BackgroundColor": "#ffffff",
+    "StrokeColor": "#000000",
+    "FontFamily": "Aerial, Helvetica, san-serif",
+    "Screen":{ 
+        "Label":"SvgPlot",
+        "Xorg": 0,
+        "Yorg": 0,
+        "Width": 1000
+    },
+    "Graph":{
+        "Label": "Graph",
+        "Type": "Laxis",
+        "XaxisLabel": "x",
+        "XaxisUnitmax": 1000,  
+        "XaxisUnitmin": 0,  
+        "YaxisLabel": "y",
+        "YaxisUnitmax": 1000,  
+        "YaxisUnitmin": 0,
+        "Grid": true,
+        "GridUnit": 100,
+        "GridColor": "#d3d3d3"
+    }, 
+    "Margs":{
+        "Left":{
+            "Side": "Left",
+            "Size": 100, 
+            "AxisLine": true,
+            "Stroke": "#000",
+            "StrokeWt": 1,
+            "Ticunit": 100,
+            "Ticsize": 15,
+            "Ticstroke": 1,
+            "Ticfontpx": 10,
+            "Ticfontoffset": 5,
+            "Labelpx": 20,
+            "Labeltext": "Y (m)"
+        },
+        "Bott":{
+            "Side": "Bottom",
+            "Size": 100, 
+            "AxisLine": true,
+            "Stroke": "#000",
+            "StrokeWt": 1,
+            "Ticunit": 100,
+            "Ticsize": 15,
+            "Ticstroke": 1,
+            "Ticfontpx": 10,
+            "Ticfontoffset": 10,
+            "Labelpx": 20,
+            "Labeltext": "X (m)"
+        },
+        "Right": {
+            "Side": "Right",
+            "Size": 100,
+            "AxisLine": true,
+            "Stroke": "#000",
+            "StrokeWt": 1,
+            "Ticunit": 100,
+            "Ticsize": 15,
+            "Ticstroke": 1,
+            "Ticfontpx": 10,
+            "Ticfontoffset": 5,
+            "Labelpx": 20,
+            "Labeltext": "Right"
+        },
+        "Top":{
+            "Side": "Top",
+            "Size": 150,
+            "AxisLine": true,
+            "Stroke": "#000",
+            "StrokeWt": 1,
+            "Ticunit": 100,
+            "Ticsize": 15,
+            "Ticstroke": 1,
+            "Ticfontpx": 10,
+            "Ticfontoffset": 10,
+            "Labelpx": 40,
+            "Labeltext": "SvgPlot"
+        }
+    }
+}

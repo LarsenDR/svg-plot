@@ -1,2 +1,2 @@
-# svg-plot
-SVG code to make a 2d plot in a web browser
+# svgplot
+Go 2D plot svg package 
